@@ -1,7 +1,7 @@
 // Creating function for plotting bar, gauge, and bubble
 function getPlot(id) {
   // getting data from samples.json 
-  d3.json("/Data/samples.json").then((data)=> {
+  d3.json("samples.json").then((data)=> {
       console.log(data)
 
       var wfreq = data.metadata.map(d => d.wfreq)
