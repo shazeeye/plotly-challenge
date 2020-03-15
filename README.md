@@ -18,7 +18,6 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 * Used `otu_labels` as the hovertext for the chart.
 
- 
 
 3. Create a bubble chart that displayed each sample.
 
@@ -32,6 +31,8 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 * Used `otu_labels` for the text values.
 
+![bar and guage chart with updated demographics](https://github.com/shazeeye/plotly-challenge/blob/master/Bar%20and%20Guage%20Charts.png)
+
 ![Bubble Chart](https://github.com/shazeeye/plotly-challenge/blob/master/Bubble%20chart.png)
 
 4. Displayed the sample metadata, i.e., an individual's demographic information.
@@ -40,7 +41,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 6. Updated all of the plots any time that a new sample is selected.
 
- ![bar and guage chart with updated demographics](https://github.com/shazeeye/plotly-challenge/blob/master/Bar%20and%20Guage%20Charts.png)
+ 
 
 
 ## Advanced Challenge Assignment (Optional)
