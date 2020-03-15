@@ -78,6 +78,7 @@ function getPlot(id) {
       // set the layout for the bubble plot
       var layout_b = {
           xaxis:{title: "OTU ID"},
+          yaxis:{title: "Sample values"},
           title:"OTU ID and sample values",
           height: 600,
           width: 1000
