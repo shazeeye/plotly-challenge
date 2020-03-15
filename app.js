@@ -3,9 +3,9 @@ function getPlot(id) {
   // getting data from samples.json 
   d3.json("samples.json").then((data)=> {
       console.log(data)
-
-      var wfreq = data.metadata.map(d => d.wfreq)
-      console.log(`Washing Frequency: ${wfreq}`)
+      var result = data.metadata.filter(meta => meta.id.toString() === id)[0];
+      var wfreq_selected = result["wfreq"];
+      console.log(wfreq_selected);
       
       // filter sample values by id and store them as the string representation of the given id
       var samples = data.samples.filter(s => s.id.toString() === id)[0];
@@ -94,7 +94,7 @@ function getPlot(id) {
       var data_g = [
         {
         domain: { x: [0, 1], y: [0, 1] },
-        value: parseFloat(wfreq),
+        value: parseFloat(wfreq_selected),
         title: { text: `Weekly Washing Frequency` },
         type: "indicator",
         
@@ -130,7 +130,10 @@ function getInfo(id) {
 
       // filter meta data info by id
       var result = metadata.filter(meta => meta.id.toString() === id)[0];
-
+      console.log(result)
+     //selecting the wreq for the specific id
+      var wfreq_selected = result["wfreq"];
+      console.log(wfreq_selected );
       // select demographic panel to put data
       var demographicInfo = d3.select("#sample-metadata");
       
