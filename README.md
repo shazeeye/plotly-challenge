@@ -59,7 +59,7 @@ Deployed index.html to a free static page hosting service on GitHub Pages. Submi
 
 ## Hints
 
-* Useb `console.log` inside of your JavaScript code to see what your data looks like at each step.
+* Used `console.log` inside of your JavaScript code to see what your data looks like at each step.
 
 * Referred to the [Plotly.js documentation](https://plot.ly/javascript/) when building the plots.
 
