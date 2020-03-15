@@ -18,7 +18,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 * Used `otu_labels` as the hovertext for the chart.
 
-  ![bar Chart](https://github.com/shazeeye/plotly-challenge/blob/master/Bar%20and%20Guage%20Charts.png)
+ 
 
 3. Create a bubble chart that displayed each sample.
 
@@ -32,18 +32,16 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 * Used `otu_labels` for the text values.
 
-![Bubble Chart](Images/bubble_chart.png)
+![Bubble Chart](https://github.com/shazeeye/plotly-challenge/blob/master/Bubble%20chart.png)
 
 4. Displayed the sample metadata, i.e., an individual's demographic information.
 
 5. Displayed each key-value pair from the metadata JSON object somewhere on the page.
 
-![hw](Images/hw03.png)
-
 6. Updated all of the plots any time that a new sample is selected.
 
+ ![bar and guage chart with updated demographics](https://github.com/shazeeye/plotly-challenge/blob/master/Bar%20and%20Guage%20Charts.png)
 
-![hw](Images/hw02.png)
 
 ## Advanced Challenge Assignment (Optional)
 
@@ -53,9 +51,6 @@ The following task is advanced and therefore optional.
 
 * Modified the example gauge code to account for values ranging from 0 through 9.
 
-
-
-![Weekly Washing Frequency Gauge](Images/gauge.png)
 
 ## Deployment
 
