@@ -121,7 +121,7 @@ function getPlot(id) {
 // create the function to get the necessary data
 function getInfo(id) {
   // read the samples.json
-  d3.json("Data/samples.json").then((data)=> {
+  d3.json("samples.json").then((data)=> {
       
       // get the metadata info for the demographic panel
       var metadata = data.metadata;
